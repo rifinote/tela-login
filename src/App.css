@@ -1,38 +1,77 @@
-.App {
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Quicksand:wght@500&display=swap');
+
+body{
+  background-image: url(capa.png);
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.login-form {
+    max-width: 300px;
+    margin-left: 23%;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.login-form-forgot {
+  color: #ffffff;
+  padding: 12px 20px;
+}
+
+.ant-col-rtl .login-form-forgot {
+    color: #ffffff;
+}
+
+.login-form-button {
+    width: 100%;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+#form{
+  width: 30%;
+  border-radius: 5px;
+  background-color: #1E3C4C;
+  padding-top: 50px;
+  margin-left: 35%;
+  margin-block: 8%;
+  margin-inline-end: 30%;
+
+}
+.input-title{
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.input-title2{
+color: #ffffff;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+
+}
+#title_form1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color:#ffffff;
   text-align: center;
+  font-weight: bold;
+}
+#a{
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+#a :hover{
+  color:#ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#or{
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 45%;
+  
 }
